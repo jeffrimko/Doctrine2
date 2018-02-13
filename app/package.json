@@ -1,0 +1,19 @@
+{
+  "name": "Doctrine2",
+  "version": "0.1.0-alpha",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Klughertz Jonathan <klughertz.j@gmail.com> (http://klugjo.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "asciidoctor.js": "^1.5.5-4",
+    "jquery": "^3.1.0",
+    "moment": "^2.14.1",
+    "phosphor": "^0.6.1",
+    "randomstring": "^1.1.5"
+  }
+}

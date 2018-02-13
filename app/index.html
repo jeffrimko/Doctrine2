@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="css\photon.css" rel="stylesheet" type="text/css"/>
+        <link href="css\page.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <div class="window">
+            <header class="toolbar toolbar-header">
+            <h1 class="title" id="title">Open a file...</h1>
+            </header>
+            <div class="window-content">
+                <div class="pane-group">
+                    <div class="pane-sm sidebar hide" id="sidebar"></div>
+                    <div class="pane">
+                        <webview id="rendered" src="file:///__output__.html" autosize="on" style="width:100%; height:100%;"></webview>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
