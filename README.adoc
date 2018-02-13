@@ -1,0 +1,9 @@
+= Doctrine2
+
+== Introduction
+Doctrine is a GUI utility for quickly and easily viewing rendered AsciiDoc documents.
+
+This is an update to the [legacy Doctrine](https://github.com/jeffrimko/doctrine) project.
+
+== Status
+  - The status of this project is **alpha**. This project is not yet suitable for use other than testing.
