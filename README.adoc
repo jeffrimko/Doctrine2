@@ -1,9 +1,14 @@
 = Doctrine2
 
 == Introduction
-Doctrine is a GUI utility for quickly and easily viewing rendered AsciiDoc documents.
+Doctrine2 is a GUI utility for quickly and easily viewing rendered AsciiDoc documents.
 
 This is an update to the [legacy Doctrine](https://github.com/jeffrimko/doctrine) project.
 
 == Status
   - The status of this project is **alpha**. This project is not yet suitable for use other than testing.
+
+== Usage
+Simply open an AsciiDoc file in Doctrine2 and it will be rendered automatically. Doctine2 can also render AsciiDoc files that have been zipped with asset files.
+
+image:doc\demos\demo_1.gif["Doctrine2 Demo", link="doc\demos\demo_1.gif"]
