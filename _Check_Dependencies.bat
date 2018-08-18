@@ -15,35 +15,30 @@ call:ChkDep^
     "https://nodejs.org/en/"^
     "8.6.0+"^
     node --version
-
-rem TODO: This NPM command hides all following STDOUT, need to investigate...
-rem call:ChkDep^
-rem     "NPM"^
-rem     "NodeJS package manager."^
-rem     "https://www.npmjs.com/"^
-rem     "5.3.0+"^
-rem     npm --version
-
+call:ChkDep^
+    "NPM"^
+    "NodeJS package manager."^
+    "https://www.npmjs.com/"^
+    "5.3.0+"^
+    npm --version
 call:ChkDep^
     "Python"^
     "Python language interpreter."^
     "www.python.org"^
     "3.6+"^
     python -V
-
 call:ChkDep^
     "Auxly"^
     "Python helper library."^
-    "www.python.org"^
+    "github.com/jeffrimko/Auxly"^
     "latest"^
     python -c "import auxly"
-
 call:ChkDep^
-    "Qprompt"^
-    "Python CLI library."^
-    "www.python.org"^
+    "Ubuild"^
+    "Python build script framework."^
+    "github.com/jeffrimko/Ubuild"^
     "latest"^
-    python -c "import qprompt"
+    python -c "import ubuild"
 
 pause
 exit /b 0
@@ -109,7 +104,7 @@ if [%1] neq [] (
     shift
     goto:chkdep_shift_next
 )
-%CMD% > NUL 2>&1
+call %CMD% > NUL 2>&1
 if %ERRORLEVEL% neq 0 (
     echo     NOT FOUND!
     set DEP_OK=0
