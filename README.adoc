@@ -12,3 +12,5 @@ This is an update to the https://github.com/jeffrimko/doctrine[legacy Doctrine] 
 Simply open an AsciiDoc file in Doctrine2 and it will be rendered automatically. Doctine2 can also render AsciiDoc files that have been zipped with asset files.
 
 image:doc\demos\demo_1.gif["Doctrine2 Demo", link="doc\demos\demo_1.gif"]
+
+To develop Doctrine2, download https://github.com/electron/electron/releases[a release of Electron] and extract it to `utils/electron_core/`.

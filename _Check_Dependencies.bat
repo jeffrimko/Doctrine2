@@ -39,6 +39,12 @@ call:ChkDep^
     "github.com/jeffrimko/Ubuild"^
     "latest"^
     python -c "import ubuild"
+call:ChkDep^
+    "Electron"^
+    "JavaScript GUI framework."^
+    "github.com/electron/electron"^
+    "latest"^
+    dir utils\electron_core\electron.exe
 
 pause
 exit /b 0

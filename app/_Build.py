@@ -10,7 +10,7 @@ from ubuild import menu, main
 ## SECTION: Global Definitions                                  #
 ##==============================================================#
 
-ELECTRON = r"..\utils\electron_core"
+ELECTRON = r"..\utils\electron_core_2"
 OUTDIR = "__output__"
 
 ##==============================================================#
